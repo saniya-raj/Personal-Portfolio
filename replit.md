@@ -91,6 +91,7 @@ This is a modern, responsive portfolio website built for Saniya Raj, a data scie
 Changelog:
 - July 03, 2025. Initial setup
 - July 03, 2025. Updated portfolio for Saniya Raj (Data Scientist) - Changed name, professional title, skills, experience, and projects to reflect data science focus
+- July 03, 2025. Added PostgreSQL database integration - Replaced in-memory storage with persistent database storage for contact messages
 
 ## User Preferences
 
