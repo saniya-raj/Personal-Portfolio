@@ -64,7 +64,7 @@ export default function ContactSection() {
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Let's Work Together</h3>
               <p className="text-slate-600 mb-8 leading-relaxed">
                 I'm always interested in new opportunities and exciting data science projects. Whether you have a job opportunity, 
-                want to collaborate on a research project, or just want to discuss data insights, I'd love to hear from you.
+                want to collaborate on a research project, or just want to discuss mathematical applications in data science, I'd love to hear from you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-slate-700 font-medium">Email</p>
-                    <p className="text-slate-600">saniya.raj@email.com</p>
+                    <p className="text-slate-600">saniyarajbnt@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -82,7 +82,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-slate-700 font-medium">Phone</p>
-                    <p className="text-slate-600">+1 (555) 123-4567</p>
+                    <p className="text-slate-600">+91 8298525725</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -91,7 +91,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-slate-700 font-medium">Location</p>
-                    <p className="text-slate-600">San Francisco, CA</p>
+                    <p className="text-slate-600">Sitamarhi, Bihar</p>
                   </div>
                 </div>
               </div>

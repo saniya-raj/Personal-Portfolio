@@ -18,30 +18,30 @@ export default function AboutSection() {
             </div>
             <div className="animate-slide-up">
               <h3 className="text-2xl font-semibold text-slate-800 mb-4">
-                Passionate Data Scientist with 5+ Years of Experience
+                Passionate Mathematics Graduate & Aspiring Data Scientist
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                I'm a data scientist and analyst specializing in extracting meaningful insights from complex datasets. 
-                My journey started with a strong foundation in statistics and machine learning, and I've been helping 
-                organizations make data-driven decisions through advanced analytics and visualization.
+                I'm a mathematics graduate with a strong foundation in statistical analysis and data science. Currently pursuing 
+                MSc in Mathematics from IIT Patna, I specialize in applying mathematical concepts to solve real-world data problems 
+                through programming and analytical thinking.
               </p>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                When I'm not analyzing data, you can find me exploring new machine learning algorithms, contributing to 
-                data science communities, or sharing insights through research papers. I believe in the power of data 
-                to transform businesses and improve lives.
+                My academic journey has equipped me with solid theoretical knowledge in mathematics and statistics. Through various 
+                certification courses and projects, I've developed practical skills in data analysis, visualization, and machine 
+                learning algorithms.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full">
                   <MapPin className="text-blue-600" size={16} />
-                  <span className="text-slate-700">San Francisco, CA</span>
+                  <span className="text-slate-700">Sitamarhi, Bihar</span>
                 </div>
                 <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full">
                   <GraduationCap className="text-blue-600" size={16} />
-                  <span className="text-slate-700">CS @ Stanford</span>
+                  <span className="text-slate-700">BSc(Hons) Math @ BHU</span>
                 </div>
                 <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full">
-                  <Coffee className="text-blue-600" size={16} />
-                  <span className="text-slate-700">Coffee Enthusiast</span>
+                  <GraduationCap className="text-blue-600" size={16} />
+                  <span className="text-slate-700">MSc Math @ IIT Patna</span>
                 </div>
               </div>
             </div>

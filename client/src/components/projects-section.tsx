@@ -3,26 +3,26 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function ProjectsSection() {
   const projects = [
     {
-      title: 'Customer Segmentation Analysis',
-      description: 'A comprehensive machine learning project analyzing customer behavior patterns using clustering algorithms and statistical analysis to identify key customer segments.',
+      title: 'Data Visualization with D3.js',
+      description: 'Built interactive data visualization charts as part of FreeCodeCamp certification. Created dynamic bar charts, scatter plots, and heat maps to represent complex datasets using D3.js and JavaScript.',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Python', 'Scikit-learn', 'Pandas'],
+      technologies: ['D3.js', 'JavaScript', 'HTML/CSS'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Sales Forecasting Model',
-      description: 'A time series forecasting model predicting sales trends using advanced statistical methods and machine learning algorithms with 95% accuracy.',
+      title: 'Statistical Analysis with Python',
+      description: 'Completed comprehensive statistical analysis projects including descriptive statistics, hypothesis testing, and regression analysis using Python libraries for academic coursework.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Python', 'Time Series', 'Statistics'],
+      technologies: ['Python', 'NumPy', 'Pandas', 'Matplotlib'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Data Visualization Dashboard',
-      description: 'An interactive dashboard displaying key business metrics and insights using modern visualization techniques and real-time data processing.',
+      title: 'Machine Learning Algorithms Implementation',
+      description: 'Implemented fundamental machine learning algorithms from scratch as part of certification coursework, including linear regression, k-means clustering, and decision trees.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Tableau', 'Python', 'SQL'],
+      technologies: ['Python', 'Scikit-learn', 'Mathematics'],
       liveUrl: '#',
       githubUrl: '#'
     }

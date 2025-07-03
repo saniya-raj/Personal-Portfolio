@@ -26,7 +26,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Data Scientist & Data Analyst passionate about creating beautiful, functional digital experiences
+            Mathematics Graduate & Aspiring Data Scientist passionate about applying mathematical concepts to solve data problems
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">

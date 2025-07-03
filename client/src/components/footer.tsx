@@ -14,8 +14,8 @@ export default function Footer() {
           <div className="mb-8">
             <h3 className="text-2xl font-bold mb-4">Saniya Raj</h3>
             <p className="text-slate-300 max-w-2xl mx-auto">
-              Data Scientist passionate about extracting insights from complex data. 
-              Always open to new opportunities and collaborations.
+              Mathematics Graduate passionate about applying mathematical concepts to data science. 
+              Always open to learning opportunities and collaborations.
             </p>
           </div>
           <div className="flex justify-center gap-6 mb-8">

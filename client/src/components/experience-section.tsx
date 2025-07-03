@@ -1,25 +1,25 @@
 export default function ExperienceSection() {
   const experiences = [
     {
-      title: 'Senior Data Scientist',
-      company: 'DataTech Solutions',
-      period: '2022 - Present',
-      description: 'Led data science initiatives for enterprise clients, developing machine learning models and analytics solutions. Managed a team of 4 data analysts and successfully delivered 15+ projects with measurable business impact.',
-      technologies: ['Python', 'Machine Learning', 'SQL', 'Team Leadership']
+      title: 'MSc Mathematics',
+      company: 'Indian Institute of Technology, Patna',
+      period: '2024 - Present',
+      description: 'Currently pursuing Master of Science in Mathematics with focus on applied mathematics, statistics, and computational methods. Developing strong analytical skills and mathematical foundations for data science applications.',
+      technologies: ['Advanced Statistics', 'Computational Mathematics', 'Research Methodology', 'Mathematical Modeling']
     },
     {
-      title: 'Data Analyst',
-      company: 'Analytics StartupXYZ',
-      period: '2020 - 2022',
-      description: 'Analyzed complex datasets to drive business decisions for early-stage startup. Collaborated closely with product and marketing teams to implement data-driven strategies and insights.',
-      technologies: ['Python', 'R', 'Tableau', 'Statistical Analysis']
+      title: 'BSc(Hons) Mathematics',
+      company: 'Banaras Hindu University',
+      period: '2021 - 2024',
+      description: 'Completed Bachelor of Science with Honors in Mathematics with strong academic performance. Gained comprehensive knowledge in calculus, algebra, statistics, and mathematical analysis.',
+      technologies: ['Pure Mathematics', 'Applied Mathematics', 'Statistics', 'Mathematical Analysis']
     },
     {
-      title: 'Junior Data Scientist',
-      company: 'Research Institute',
-      period: '2019 - 2020',
-      description: 'Conducted statistical analysis and data visualization for research projects. Gained experience in data cleaning, exploratory data analysis, and predictive modeling.',
-      technologies: ['Python', 'Statistics', 'Data Visualization', 'Research']
+      title: 'Data Science Certifications',
+      company: 'FreeCodeCamp & Online Platforms',
+      period: '2023 - Present',
+      description: 'Completed multiple certification courses in data science, machine learning, and programming. Built practical projects demonstrating skills in data analysis, visualization, and statistical modeling.',
+      technologies: ['Python', 'Data Analysis', 'Machine Learning', 'Data Visualization']
     }
   ];
 
@@ -27,7 +27,7 @@ export default function ExperienceSection() {
     <section id="experience" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold text-center text-slate-800 mb-12">Experience</h2>
+          <h2 className="text-4xl font-bold text-center text-slate-800 mb-12">Education & Certifications</h2>
           <div className="relative">
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-slate-200"></div>
             {experiences.map((experience, index) => (
