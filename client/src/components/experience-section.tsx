@@ -11,7 +11,7 @@ export default function ExperienceSection() {
       title: 'BSc(Hons) Mathematics',
       company: 'Banaras Hindu University',
       period: '2021 - 2024',
-      description: 'Completed Bachelor of Science with Honors in Mathematics with strong academic performance. Gained comprehensive knowledge in calculus, algebra, statistics, and mathematical analysis.',
+      description: 'Completed Bachelor of Science with Honors in Mathematics with 9.0 CGPA. Gained comprehensive knowledge in calculus, algebra, statistics, and mathematical analysis. Achieved AIR 511 in IIT JAM Mathematics.',
       technologies: ['Pure Mathematics', 'Applied Mathematics', 'Statistics', 'Mathematical Analysis']
     },
     {

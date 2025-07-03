@@ -21,9 +21,9 @@ export default function AboutSection() {
                 Passionate Mathematics Graduate & Aspiring Data Scientist
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                I'm a mathematics graduate with a strong foundation in statistical analysis and data science. Currently pursuing 
-                MSc in Mathematics from IIT Patna, I specialize in applying mathematical concepts to solve real-world data problems 
-                through programming and analytical thinking.
+                I'm a mathematics graduate with a strong foundation in statistical analysis and data science. Graduated with 9.0 CGPA from BHU 
+                and achieved AIR 511 in IIT JAM Mathematics. Currently pursuing MSc in Mathematics from IIT Patna, I specialize in applying 
+                mathematical concepts to solve real-world data problems through programming and analytical thinking.
               </p>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 My academic journey has equipped me with solid theoretical knowledge in mathematics and statistics. Through various 
@@ -42,6 +42,9 @@ export default function AboutSection() {
                 <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full">
                   <GraduationCap className="text-blue-600" size={16} />
                   <span className="text-slate-700">MSc Math @ IIT Patna</span>
+                </div>
+                <div className="flex items-center gap-2 bg-blue-100 px-4 py-2 rounded-full">
+                  <span className="text-blue-800 font-semibold">🏆 IIT JAM AIR 511</span>
                 </div>
               </div>
             </div>

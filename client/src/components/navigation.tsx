@@ -12,6 +12,7 @@ export default function Navigation() {
     { href: '#skills', label: 'Skills' },
     { href: '#experience', label: 'Education' },
     { href: '#projects', label: 'Projects' },
+    { href: '#resume', label: 'Resume' },
     { href: '#contact', label: 'Contact' },
   ];
 

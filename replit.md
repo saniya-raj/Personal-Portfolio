@@ -93,6 +93,8 @@ Changelog:
 - July 03, 2025. Updated portfolio for Saniya Raj (Data Scientist) - Changed name, professional title, skills, experience, and projects to reflect data science focus
 - July 03, 2025. Added PostgreSQL database integration - Replaced in-memory storage with persistent database storage for contact messages
 - July 03, 2025. Updated to fresher portfolio - Changed to academic background (BSc Math from BHU, MSc from IIT Patna), updated contact info (Sitamarhi Bihar, saniyarajbnt@gmail.com, +91 8298525725), modified experience section to education & certifications, updated projects to reflect FreeCodeCamp certification work
+- July 03, 2025. Added social media integration - Added GitHub (https://github.com/saniya-raj), LinkedIn (https://www.linkedin.com/in/saniya-raj-5732bb250/), and YouTube (@mathsloverpoint) links
+- July 03, 2025. Enhanced academic achievements - Added 9.0 CGPA for BSc(Hons) Mathematics, highlighted IIT JAM AIR 511 rank, created dedicated resume section with preview and download functionality
 
 ## User Preferences
 
