@@ -63,8 +63,8 @@ export default function ContactSection() {
             <div className="animate-slide-up">
               <h3 className="text-2xl font-semibold text-slate-800 mb-6">Let's Work Together</h3>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. Whether you have a job opportunity, 
-                want to collaborate on a project, or just want to say hello, I'd love to hear from you.
+                I'm always interested in new opportunities and exciting data science projects. Whether you have a job opportunity, 
+                want to collaborate on a research project, or just want to discuss data insights, I'd love to hear from you.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
@@ -73,7 +73,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-slate-700 font-medium">Email</p>
-                    <p className="text-slate-600">alex.johnson@email.com</p>
+                    <p className="text-slate-600">saniya.raj@email.com</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">

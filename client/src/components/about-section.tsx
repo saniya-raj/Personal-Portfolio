@@ -18,17 +18,17 @@ export default function AboutSection() {
             </div>
             <div className="animate-slide-up">
               <h3 className="text-2xl font-semibold text-slate-800 mb-4">
-                Passionate Developer with 5+ Years of Experience
+                Passionate Data Scientist with 5+ Years of Experience
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                I'm a full-stack developer based in San Francisco, specializing in creating exceptional digital experiences. 
-                My journey started with a Computer Science degree from Stanford, and I've been building web applications 
-                that combine beautiful design with robust functionality ever since.
+                I'm a data scientist and analyst specializing in extracting meaningful insights from complex datasets. 
+                My journey started with a strong foundation in statistics and machine learning, and I've been helping 
+                organizations make data-driven decisions through advanced analytics and visualization.
               </p>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or hiking the beautiful trails around the Bay Area. I believe in continuous learning and staying 
-                up-to-date with the latest industry trends.
+                When I'm not analyzing data, you can find me exploring new machine learning algorithms, contributing to 
+                data science communities, or sharing insights through research papers. I believe in the power of data 
+                to transform businesses and improve lives.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full">

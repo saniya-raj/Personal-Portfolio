@@ -1,25 +1,25 @@
 export default function ExperienceSection() {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Solutions',
+      title: 'Senior Data Scientist',
+      company: 'DataTech Solutions',
       period: '2022 - Present',
-      description: 'Led development of enterprise-level web applications using React, Node.js, and AWS. Managed a team of 4 developers and successfully delivered 15+ projects on time and within budget.',
-      technologies: ['React', 'Node.js', 'AWS', 'Team Leadership']
+      description: 'Led data science initiatives for enterprise clients, developing machine learning models and analytics solutions. Managed a team of 4 data analysts and successfully delivered 15+ projects with measurable business impact.',
+      technologies: ['Python', 'Machine Learning', 'SQL', 'Team Leadership']
     },
     {
-      title: 'Full Stack Developer',
-      company: 'StartupXYZ',
+      title: 'Data Analyst',
+      company: 'Analytics StartupXYZ',
       period: '2020 - 2022',
-      description: 'Developed and maintained multiple web applications for early-stage startup. Collaborated closely with design and product teams to implement user-friendly interfaces.',
-      technologies: ['JavaScript', 'Python', 'Django', 'PostgreSQL']
+      description: 'Analyzed complex datasets to drive business decisions for early-stage startup. Collaborated closely with product and marketing teams to implement data-driven strategies and insights.',
+      technologies: ['Python', 'R', 'Tableau', 'Statistical Analysis']
     },
     {
-      title: 'Junior Web Developer',
-      company: 'WebDesign Co.',
+      title: 'Junior Data Scientist',
+      company: 'Research Institute',
       period: '2019 - 2020',
-      description: 'Built responsive websites and web applications for small to medium businesses. Gained experience in modern web technologies and client communication.',
-      technologies: ['HTML/CSS', 'JavaScript', 'WordPress', 'Client Relations']
+      description: 'Conducted statistical analysis and data visualization for research projects. Gained experience in data cleaning, exploratory data analysis, and predictive modeling.',
+      technologies: ['Python', 'Statistics', 'Data Visualization', 'Research']
     }
   ];
 

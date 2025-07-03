@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a modern, responsive portfolio website built for Alex Johnson, a full-stack developer and UI/UX designer. The application showcases professional experience, skills, projects, and provides a contact form for potential clients or employers to reach out.
+This is a modern, responsive portfolio website built for Saniya Raj, a data scientist and data analyst. The application showcases professional experience, skills, projects, and provides a contact form for potential clients or employers to reach out.
 
 ## System Architecture
 
@@ -90,6 +90,7 @@ This is a modern, responsive portfolio website built for Alex Johnson, a full-st
 
 Changelog:
 - July 03, 2025. Initial setup
+- July 03, 2025. Updated portfolio for Saniya Raj (Data Scientist) - Changed name, professional title, skills, experience, and projects to reflect data science focus
 
 ## User Preferences
 

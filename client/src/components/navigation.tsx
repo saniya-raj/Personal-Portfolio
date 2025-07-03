@@ -29,7 +29,7 @@ export default function Navigation() {
     }`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold text-blue-600">Alex Johnson</div>
+          <div className="text-xl font-bold text-blue-600">Saniya Raj</div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

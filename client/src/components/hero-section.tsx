@@ -22,11 +22,11 @@ export default function HeroSection() {
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold text-slate-800 mb-4">
-            Hi, I'm <span className="text-blue-600">Alex Johnson</span>
+            Hi, I'm <span className="text-blue-600">Saniya Raj</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Full-Stack Developer & UI/UX Designer passionate about creating beautiful, functional digital experiences
+            Data Scientist & Data Analyst passionate about creating beautiful, functional digital experiences
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">

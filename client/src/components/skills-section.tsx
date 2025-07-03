@@ -2,20 +2,20 @@ import { Database, Code, Cloud, GitBranch, Palette, Server } from 'lucide-react'
 
 export default function SkillsSection() {
   const technicalSkills = [
-    { name: 'JavaScript / TypeScript', level: 90 },
-    { name: 'React / Next.js', level: 85 },
-    { name: 'Node.js / Express', level: 80 },
-    { name: 'Python / Django', level: 75 },
-    { name: 'Database Design', level: 70 },
+    { name: 'Python / R', level: 95 },
+    { name: 'Machine Learning', level: 90 },
+    { name: 'Data Visualization', level: 85 },
+    { name: 'SQL / Database', level: 80 },
+    { name: 'Statistics / Analytics', level: 88 },
   ];
 
   const tools = [
-    { name: 'React', icon: Code },
-    { name: 'Node.js', icon: Server },
-    { name: 'AWS', icon: Cloud },
-    { name: 'Docker', icon: Database },
+    { name: 'Python', icon: Code },
+    { name: 'Pandas', icon: Database },
+    { name: 'Scikit-learn', icon: Server },
+    { name: 'Tableau', icon: Palette },
     { name: 'Git', icon: GitBranch },
-    { name: 'PostgreSQL', icon: Database },
+    { name: 'SQL', icon: Database },
   ];
 
   return (

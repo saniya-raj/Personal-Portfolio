@@ -3,26 +3,26 @@ import { ExternalLink, Github } from 'lucide-react';
 export default function ProjectsSection() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with React and Node.js, featuring payment integration, inventory management, and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['React', 'Node.js', 'Stripe'],
+      title: 'Customer Segmentation Analysis',
+      description: 'A comprehensive machine learning project analyzing customer behavior patterns using clustering algorithms and statistical analysis to identify key customer segments.',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
+      technologies: ['Python', 'Scikit-learn', 'Pandas'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, team collaboration features, and advanced filtering options.',
+      title: 'Sales Forecasting Model',
+      description: 'A time series forecasting model predicting sales trends using advanced statistical methods and machine learning algorithms with 95% accuracy.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['Vue.js', 'Socket.io', 'MongoDB'],
+      technologies: ['Python', 'Time Series', 'Statistics'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A beautiful weather application with detailed forecasts, interactive maps, and location-based weather alerts using multiple weather APIs.',
+      title: 'Data Visualization Dashboard',
+      description: 'An interactive dashboard displaying key business metrics and insights using modern visualization techniques and real-time data processing.',
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
-      technologies: ['React', 'API Integration', 'Charts.js'],
+      technologies: ['Tableau', 'Python', 'SQL'],
       liveUrl: '#',
       githubUrl: '#'
     }
