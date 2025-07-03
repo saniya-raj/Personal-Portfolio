@@ -95,6 +95,7 @@ Changelog:
 - July 03, 2025. Updated to fresher portfolio - Changed to academic background (BSc Math from BHU, MSc from IIT Patna), updated contact info (Sitamarhi Bihar, saniyarajbnt@gmail.com, +91 8298525725), modified experience section to education & certifications, updated projects to reflect FreeCodeCamp certification work
 - July 03, 2025. Added social media integration - Added GitHub (https://github.com/saniya-raj), LinkedIn (https://www.linkedin.com/in/saniya-raj-5732bb250/), and YouTube (@mathsloverpoint) links
 - July 03, 2025. Enhanced academic achievements - Added 9.0 CGPA for BSc(Hons) Mathematics, highlighted IIT JAM AIR 511 rank, created dedicated resume section with preview and download functionality
+- July 03, 2025. Updated timeline and resume system - Corrected MSc start year to 2025, updated IIT JAM rank year to 2025, implemented comprehensive resume template with print/PDF functionality, replaced all placeholder photos with simple professional images ready for user replacement
 
 ## User Preferences
 

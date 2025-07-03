@@ -3,7 +3,7 @@ export default function ExperienceSection() {
     {
       title: 'MSc Mathematics',
       company: 'Indian Institute of Technology, Patna',
-      period: '2024 - Present',
+      period: '2025 - Present',
       description: 'Currently pursuing Master of Science in Mathematics with focus on applied mathematics, statistics, and computational methods. Developing strong analytical skills and mathematical foundations for data science applications.',
       technologies: ['Advanced Statistics', 'Computational Mathematics', 'Research Methodology', 'Mathematical Modeling']
     },
@@ -11,7 +11,7 @@ export default function ExperienceSection() {
       title: 'BSc(Hons) Mathematics',
       company: 'Banaras Hindu University',
       period: '2021 - 2024',
-      description: 'Completed Bachelor of Science with Honors in Mathematics with 9.0 CGPA. Gained comprehensive knowledge in calculus, algebra, statistics, and mathematical analysis. Achieved AIR 511 in IIT JAM Mathematics.',
+      description: 'Completed Bachelor of Science with Honors in Mathematics with 9.0 CGPA. Gained comprehensive knowledge in calculus, algebra, statistics, and mathematical analysis. Achieved AIR 511 in IIT JAM Mathematics 2025.',
       technologies: ['Pure Mathematics', 'Applied Mathematics', 'Statistics', 'Mathematical Analysis']
     },
     {

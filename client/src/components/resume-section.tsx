@@ -1,13 +1,16 @@
-import { Download, FileText, Award, GraduationCap, Code, Trophy } from 'lucide-react';
+import { useState } from 'react';
+import { Download, FileText, Award, GraduationCap, Code, Trophy, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import ResumeTemplate from './resume-template';
 
 export default function ResumeSection() {
+  const [showResumeModal, setShowResumeModal] = useState(false);
   const resumeHighlights = [
     {
       icon: GraduationCap,
       title: 'Education',
       items: [
-        'MSc Mathematics - IIT Patna (2024-Present)',
+        'MSc Mathematics - IIT Patna (2025-Present)',
         'BSc(Hons) Mathematics - BHU (9.0 CGPA)'
       ]
     },
@@ -15,7 +18,7 @@ export default function ResumeSection() {
       icon: Trophy,
       title: 'Achievements',
       items: [
-        'IIT JAM Mathematics - AIR 511',
+        'IIT JAM Mathematics 2025 - AIR 511',
         'Strong Mathematical Foundation',
         'Academic Excellence (9.0 CGPA)'
       ]
@@ -41,8 +44,11 @@ export default function ResumeSection() {
   ];
 
   const handleDownloadResume = () => {
-    // This will be updated with actual PDF link later
-    alert('Resume download link will be added soon!');
+    setShowResumeModal(true);
+  };
+
+  const handleViewResume = () => {
+    setShowResumeModal(true);
   };
 
   return (
@@ -73,7 +79,7 @@ export default function ResumeSection() {
                   <div>
                     <h4 className="font-semibold text-slate-800 mb-2">Education</h4>
                     <div className="text-sm text-slate-600 space-y-1">
-                      <p>• MSc Mathematics - IIT Patna (2024-Present)</p>
+                      <p>• MSc Mathematics - IIT Patna (2025-Present)</p>
                       <p>• BSc(Hons) Mathematics - BHU (9.0 CGPA)</p>
                     </div>
                   </div>
@@ -81,7 +87,7 @@ export default function ResumeSection() {
                   <div>
                     <h4 className="font-semibold text-slate-800 mb-2">Key Achievement</h4>
                     <div className="text-sm text-slate-600">
-                      <p>• IIT JAM Mathematics - AIR 511</p>
+                      <p>• IIT JAM Mathematics 2025 - AIR 511</p>
                     </div>
                   </div>
                   
@@ -133,22 +139,35 @@ export default function ResumeSection() {
                 ))}
               </div>
 
-              <div className="text-center">
-                <Button 
-                  onClick={handleDownloadResume}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg inline-flex items-center gap-3"
-                >
-                  <Download size={20} />
-                  Download Complete Resume
-                </Button>
-                <p className="text-sm text-slate-500 mt-2">
-                  PDF format • Updated recently
+              <div className="text-center space-y-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button 
+                    onClick={handleViewResume}
+                    className="bg-slate-600 hover:bg-slate-700 text-white px-6 py-3 rounded-lg inline-flex items-center gap-3"
+                  >
+                    <Eye size={20} />
+                    View Resume
+                  </Button>
+                  <Button 
+                    onClick={handleDownloadResume}
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg inline-flex items-center gap-3"
+                  >
+                    <Download size={20} />
+                    Download/Print Resume
+                  </Button>
+                </div>
+                <p className="text-sm text-slate-500">
+                  Professional resume based on portfolio data • Print as PDF available
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
+      {showResumeModal && (
+        <ResumeTemplate onClose={() => setShowResumeModal(false)} />
+      )}
     </section>
   );
 }

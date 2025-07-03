@@ -10,8 +10,8 @@ export default function AboutSection() {
             <div className="animate-slide-up">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600" 
-                  alt="About me photo" 
+                  src="https://images.unsplash.com/photo-1594736797933-d0bce7d2f16d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600" 
+                  alt="Profile photo placeholder" 
                   className="w-full h-auto"
                 />
               </div>
@@ -22,7 +22,7 @@ export default function AboutSection() {
               </h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 I'm a mathematics graduate with a strong foundation in statistical analysis and data science. Graduated with 9.0 CGPA from BHU 
-                and achieved AIR 511 in IIT JAM Mathematics. Currently pursuing MSc in Mathematics from IIT Patna, I specialize in applying 
+                and achieved AIR 511 in IIT JAM Mathematics 2025. Currently pursuing MSc in Mathematics from IIT Patna, I specialize in applying 
                 mathematical concepts to solve real-world data problems through programming and analytical thinking.
               </p>
               <p className="text-slate-600 mb-6 leading-relaxed">
