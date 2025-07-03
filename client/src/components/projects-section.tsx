@@ -8,7 +8,7 @@ export default function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
       technologies: ['D3.js', 'JavaScript', 'HTML/CSS'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/saniya-raj'
     },
     {
       title: 'Statistical Analysis with Python',
@@ -16,7 +16,7 @@ export default function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
       technologies: ['Python', 'NumPy', 'Pandas', 'Matplotlib'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/saniya-raj'
     },
     {
       title: 'Machine Learning Algorithms Implementation',
@@ -24,7 +24,7 @@ export default function ProjectsSection() {
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
       technologies: ['Python', 'Scikit-learn', 'Mathematics'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/saniya-raj'
     }
   ];
 
@@ -83,7 +83,9 @@ export default function ProjectsSection() {
           </div>
           <div className="text-center mt-12">
             <a 
-              href="#" 
+              href="https://github.com/saniya-raj" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 inline-flex items-center gap-2"
             >
               <Github size={20} />

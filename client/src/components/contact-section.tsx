@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Send, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -49,9 +49,9 @@ export default function ContactSection() {
   };
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/saniya-raj', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/saniya-raj-5732bb250/', label: 'LinkedIn' },
+    { icon: Youtube, href: 'https://youtube.com/@mathsloverpoint', label: 'YouTube' },
   ];
 
   return (
@@ -102,6 +102,8 @@ export default function ContactSection() {
                     <a
                       key={index}
                       href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-10 h-10 bg-blue-600/10 rounded-lg flex items-center justify-center text-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-200"
                     >
                       <social.icon size={20} />

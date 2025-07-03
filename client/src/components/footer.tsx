@@ -1,10 +1,10 @@
-import { Github, Linkedin, Twitter, Download } from 'lucide-react';
+import { Github, Linkedin, Youtube, Download } from 'lucide-react';
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/saniya-raj', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/saniya-raj-5732bb250/', label: 'LinkedIn' },
+    { icon: Youtube, href: 'https://youtube.com/@mathsloverpoint', label: 'YouTube' },
   ];
 
   return (
@@ -23,6 +23,8 @@ export default function Footer() {
               <a
                 key={index}
                 href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-slate-300 hover:text-white transition-colors duration-200"
                 aria-label={social.label}
               >
